@@ -1,7 +1,11 @@
 ## Teste Pycharm
 
 class Person:
-    ''' Classe Person'''
+    ''' Classe Person
+        Args
+        Name as string
+        Age as int
+    '''
     def __init__(self, name, age):
         self.name = name
         self.age = age
